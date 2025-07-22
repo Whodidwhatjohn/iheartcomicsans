@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blogs — I ♥ Comic Sans</title>
+  <style>
+    body {
+      background-color: #ccf2f2;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      background-image: url('bg-pattern.gif');
+      background-repeat: repeat;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 10px 20px;
+    }
+
+    header h1 {
+      font-size: 48px;
+      text-shadow: 2px 2px #ff69b4;
+      color: #000;
+    }
+
+    nav {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: inline-block;
+    }
+
+    nav ul li {
+      display: inline-block;
+      position: relative;
+      margin: 0 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-size: 18px;
+      color: #003366;
+    }
+
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      top: 25px;
+      left: 0;
+      background: #e0ffff;
+      border: 1px solid #000;
+      padding: 0;
+      list-style: none;
+    }
+
+    nav ul li:hover ul {
+      display: block;
+    }
+
+    nav ul li ul li {
+      margin: 0;
+      padding: 5px 10px;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #f0ffff;
+      border: 2px dashed #00cccc;
+    }
+
+    .blog-links {
+      margin: 30px 0;
+    }
+
+    .blog-links a {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: #006699;
+      text-decoration: none;
+    }
+
+    .pagination {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 16px;
+    }
+
+    .pagination a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #003366;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 12px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>I ♥ Comic Sans</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
+      <li>
+        <a href="videos.html">Videos</a>
+        <ul>
+          <li><a href="https://www.youtube.com/@whodidwhatjohn4728">Whodidwhatjohn</a></li>
+          <li><a href="https://www.youtube.com/@JohnnyStrangeBizarre">Johnny Strange</a></li>
+        </ul>
+      </li>
+      <li><a href="blogpg1.html">Blog</a></li>
+      <li><a href="music.html">Music</a></li>
+      <li><a href="art.html">Art Work</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Blogs</h2>
+    <p>Greetings. Welcome to my Blog. Here, I write about anything that takes my fancy. You will find opinion pieces, misgivings I have about the world, and snippets of my personal life.</p>
+
+    <h3>Featured!</h3>
+
+    <div class ="featured-blogs">
+      <a href="#">Blank</a>
+    </div>
+
+    <div class="blog-links">
+      <a href="#">Blank</a>
+      <a href="#">Blank</a>
+      <a href="#">Blank</a>
+    </div>
+
+    <div class="pagination">
+      Page 1 — 
+      <a href="#">←</a>
+      <a href="#">→</a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; JTV, 2025. All rights reserved.
+  </footer>
+
+</body>
+</html>
