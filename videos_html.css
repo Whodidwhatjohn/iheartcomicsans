@@ -1,0 +1,95 @@
+h1, h2, h3 { margin:0; padding:0; font-weight:normal; font-style:normal; }
+a { color:#5D5D9E; } 
+a:visited { color:#5D5D9E; } 
+a:active { color:#5C615E; } 
+a:hover { color:#B2B3B4; } 
+@keyframes rcKeyframes-fade_in_and_move2
+{
+		0%   { transform: translate(700px, 0px); opacity: 0.05; }
+		100% { transform: translate(0px, 0px); opacity: 1; }
+}
+.rcAnim-fade_in_and_move2
+{
+		animation-name:rcKeyframes-fade_in_and_move2;
+		animation-delay:0ms;
+		animation-duration:5000ms;
+		animation-iteration-count:1;
+		animation-timing-function:ease;
+		animation-direction:normal;
+		animation-fill-mode:forwards;
+}
+#menu_52d50cb9 a { text-decoration: none; }
+#menu_52d50cb9_pane { background-color: #E6E6E6; border: 1px solid #E6E6E6; padding-top: 10px; padding-bottom: 10px; box-shadow: 2px 2px 6px 0px rgba(8, 8, 8, 0.784314); }
+#menu_52d50cb9_hr { background-color: #E6E6E6; height: 1px; border: none; }
+#menu_52d50cb9_entry { padding-left: 10px; padding-right: 10px; padding-top: 3px; padding-bottom: 3px; }
+#menu_52d50cb9_entry:hover { background-color: #323232; color: #FFFFFF !important; }
+#menu_52d50cb9_entry:hover span { color:#FFFFFF !important; }
+		.menu_52d50cb9_mainMenuEntry { text-align: center; }
+		.menu_52d50cb9_mainMenuEntry:hover {	background-color:#282828; }
+		.menu_52d50cb9_mainMenuEntry:hover span {	color:#FFFFFF !important; }
+		#menu_52d50cb9 .mobileEntry { display: none; } 
+		#menu_52d50cb9 .normalEntry { display: block; } 
+		#menu_52d50cb9_menualignmentwrapper{ width:412px; left: calc(50% - 206px);  } 
+		@media only screen and (max-width:600px) { 
+			#menu_52d50cb9 .mobileEntry { display: block; } 
+			#menu_52d50cb9 .normalEntry { display: none; } 
+			#menu_52d50cb9_menualignmentwrapper { width:36px; left: calc(50% - 18px);  } 
+		}
+body { background-color:#B3E7E7; padding:0;  margin: 0; }
+.textstyle1 { text-align:left; }
+#container_353a5805 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:27px; background-color:#00FFFF;  }
+#container_353a5805_padding { margin: 10px; display: block;  }
+#heading_3e2f4515 { vertical-align: bottom; position:relative; display: inline-block; background:none;  }
+.textstyle2 { text-align:left;display: block }
+.textstyle3 { font-size:12pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#000000;  }
+#container_80e4e6e { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_80e4e6e_padding { margin: 10px; display: block;  }
+.textstyle4 { text-align:center; }
+#heading_2145fd1 { vertical-align: bottom; position:relative; display: inline-block; background:none; font-size:28pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#000000; text-align:left; font-style:italic; font-weight:bold; text-shadow: 2px 2px 2px #DC3BF3;  }
+#heading_2145fd1_padding { margin: 50px 0px 0px 0px; display: block;  }
+#container_450824da { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:83px; background:none;  }
+#container_450824da_padding { margin: 10px; display: block;  }
+#menu_52d50cb9 { vertical-align: bottom; position:relative; display: inline-block; width:100%; height:38px; text-align:left; background:none;  }
+#menu_52d50cb9_menualignmentwrapper { position: relative; overflow: visible; height: 100%; }
+.menuholder1 { position: relative; overflow: hidden; width: 100%; height: 100%; }
+.menustyle1 { position:absolute; width:36px; height:38px; left:0px;  }
+.menuentry_text1 { position:absolute; top:0px; bottom:0px; left:0px; right:0px; margin-top:auto; margin-bottom:auto; margin-left:auto; margin-right:auto; height:32px;  }
+.textstyle5 { font-size:22pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  white-space: nowrap; }
+.menustyle2 { position:absolute; width:59px; height:38px; left:0px;  }
+.menuentry_text2 { position:absolute; top:0px; bottom:0px; left:0px; right:0px; margin-top:auto; margin-bottom:auto; margin-left:auto; margin-right:auto; height:21px;  }
+.textstyle6 { font-size:12pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#000000;  white-space: nowrap; }
+.menustyle3 { position:absolute; width:89px; height:38px; left:59px;  }
+.menustyle4 { position:absolute; width:66px; height:38px; left:148px;  }
+.menustyle5 { position:absolute; width:49px; height:38px; left:214px;  }
+.menustyle6 { position:absolute; width:60px; height:38px; left:263px;  }
+.menustyle7 { position:absolute; width:89px; height:38px; left:323px;  }
+#container_1bb6b284 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_1bb6b284_padding { margin: 10px; display: block;  }
+#container_2c7116ea { box-sizing: border-box; vertical-align: top; position:relative; display: inline-block; width:101%; min-height:476px; background-color:#D9E8E8; border: 1px dotted #3BB4B4;  }
+#container_2c7116ea_padding { margin: 10px; display: block;  }
+#heading_2823f0b8 { vertical-align: bottom; position:relative; display: inline-block; background:none; font-size:24pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#000000; text-align:left;  }
+#container_5d6f4aff { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_5d6f4aff_padding { margin: 10px; display: block;  }
+#text_3ecdb7db { vertical-align: bottom; position:relative; display: inline-block; background:none;  }
+.textstyle7 { font-size:15pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#000000;  }
+#container_6322fe62 { box-sizing: border-box; vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background-color:#BCD8D8; border: 1px dotted #404040;  }
+#container_6322fe62_padding { margin: 10px; display: block;  }
+#heading_16d2afa4 { vertical-align: bottom; position:relative; display: inline-block; background:none; font-size:24pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#000000; text-align:left;  }
+#container_1ce2b571 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_1ce2b571_padding { margin: 10px; display: block;  }
+#video_48458a { box-sizing: border-box; vertical-align: bottom; position:relative; display: inline-block; width:50%; background-color:#D1D1D1; border: 1px solid #A0A0A0;  }
+#container_61bd2509 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_61bd2509_padding { margin: 10px; display: block;  }
+#text_9954efc { vertical-align: bottom; position:relative; display: inline-block; background:none;  }
+#container_2999867e { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background-color:#BCD8D8;  }
+#container_2999867e_padding { margin: 10px; display: block;  }
+#heading_1809c9fc { vertical-align: bottom; position:relative; display: inline-block; background:none; font-size:24pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#000000; text-align:left;  }
+#container_60dba8b2 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_60dba8b2_padding { margin: 10px; display: block;  }
+#video_63efa2b7 { box-sizing: border-box; vertical-align: bottom; position:relative; display: inline-block; width:50%; background-color:#D1D1D1; border: 1px solid #A0A0A0;  }
+#container_5fcdca19 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_5fcdca19_padding { margin: 10px; display: block;  }
+#text_50fe4c2d { vertical-align: bottom; position:relative; display: inline-block; background:none;  }
+#container_14f6314d { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:21px; background:none;  }
+#container_14f6314d_padding { margin: 10px; display: block;  }
+#heading_6d2dd433 { vertical-align: bottom; position:relative; display: inline-block; background-color:#808080; font-size:14pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#FFFFFF; text-align:left;  }

@@ -1,0 +1,104 @@
+h1, h2, h3 { margin:0; padding:0; font-weight:normal; font-style:normal; }
+a { color:#5D5D9E; } 
+a:visited { color:#5D5D9E; } 
+a:active { color:#5C615E; } 
+a:hover { color:#B2B3B4; } 
+@keyframes rcKeyframes-fade_in_and_move2
+{
+		0%   { transform: translate(700px, 0px); opacity: 0.05; }
+		100% { transform: translate(0px, 0px); opacity: 1; }
+}
+.rcAnim-fade_in_and_move2
+{
+		animation-name:rcKeyframes-fade_in_and_move2;
+		animation-delay:0ms;
+		animation-duration:5000ms;
+		animation-iteration-count:1;
+		animation-timing-function:ease;
+		animation-direction:normal;
+		animation-fill-mode:forwards;
+}
+#menu_5c17f023 a { text-decoration: none; }
+#menu_5c17f023_pane { background-color: #E6E6E6; border: 1px solid #E6E6E6; padding-top: 10px; padding-bottom: 10px; box-shadow: 2px 2px 6px 0px rgba(8, 8, 8, 0.784314); }
+#menu_5c17f023_hr { background-color: #E6E6E6; height: 1px; border: none; }
+#menu_5c17f023_entry { padding-left: 10px; padding-right: 10px; padding-top: 3px; padding-bottom: 3px; }
+#menu_5c17f023_entry:hover { background-color: #323232; color: #FFFFFF !important; }
+#menu_5c17f023_entry:hover span { color:#FFFFFF !important; }
+		.menu_5c17f023_mainMenuEntry { text-align: center; }
+		.menu_5c17f023_mainMenuEntry:hover {	background-color:#282828; }
+		.menu_5c17f023_mainMenuEntry:hover span {	color:#FFFFFF !important; }
+		#menu_5c17f023 .mobileEntry { display: none; } 
+		#menu_5c17f023 .normalEntry { display: block; } 
+		#menu_5c17f023_menualignmentwrapper{ width:412px; left: calc(50% - 206px);  } 
+		@media only screen and (max-width:600px) { 
+			#menu_5c17f023 .mobileEntry { display: block; } 
+			#menu_5c17f023 .normalEntry { display: none; } 
+			#menu_5c17f023_menualignmentwrapper { width:36px; left: calc(50% - 18px);  } 
+		}
+body { background-color:#B3E7E7; padding:0;  margin: 0; }
+.textstyle1 { text-align:left; }
+#container_798fb160 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:27px; background-color:#00FFFF;  }
+#container_798fb160_padding { margin: 10px; display: block;  }
+#heading_d0123cd { vertical-align: bottom; position:relative; display: inline-block; background:none;  }
+.textstyle2 { text-align:left;display: block }
+.textstyle3 { font-size:12pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#000000;  }
+#container_40bc1880 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_40bc1880_padding { margin: 10px; display: block;  }
+.textstyle4 { text-align:center; }
+#heading_4ab48a4b { vertical-align: bottom; position:relative; display: inline-block; background:none; font-size:28pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#000000; text-align:left; font-style:italic; font-weight:bold; text-shadow: 2px 2px 2px #DC3BF3;  }
+#heading_4ab48a4b_padding { margin: 50px 0px 0px 0px; display: block;  }
+#container_579f572f { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:83px; background:none;  }
+#container_579f572f_padding { margin: 10px; display: block;  }
+#menu_5c17f023 { vertical-align: bottom; position:relative; display: inline-block; width:100%; height:38px; text-align:left; background:none;  }
+#menu_5c17f023_menualignmentwrapper { position: relative; overflow: visible; height: 100%; }
+.menuholder1 { position: relative; overflow: hidden; width: 100%; height: 100%; }
+.menustyle1 { position:absolute; width:36px; height:38px; left:0px;  }
+.menuentry_text1 { position:absolute; top:0px; bottom:0px; left:0px; right:0px; margin-top:auto; margin-bottom:auto; margin-left:auto; margin-right:auto; height:32px;  }
+.textstyle5 { font-size:22pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  white-space: nowrap; }
+.menustyle2 { position:absolute; width:59px; height:38px; left:0px;  }
+.menuentry_text2 { position:absolute; top:0px; bottom:0px; left:0px; right:0px; margin-top:auto; margin-bottom:auto; margin-left:auto; margin-right:auto; height:21px;  }
+.textstyle6 { font-size:12pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#000000;  white-space: nowrap; }
+.menustyle3 { position:absolute; width:89px; height:38px; left:59px;  }
+.menustyle4 { position:absolute; width:66px; height:38px; left:148px;  }
+.menustyle5 { position:absolute; width:49px; height:38px; left:214px;  }
+.menustyle6 { position:absolute; width:60px; height:38px; left:263px;  }
+.menustyle7 { position:absolute; width:89px; height:38px; left:323px;  }
+#container_6fb308e3 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_6fb308e3_padding { margin: 10px; display: block;  }
+#container_76a77c69 { box-sizing: border-box; vertical-align: top; position:relative; display: inline-block; width:101%; min-height:476px; background-color:#D9E8E8; border: 1px dotted #3BB4B4;  }
+#container_76a77c69_padding { margin: 10px; display: block;  }
+#heading_76fab2ac { vertical-align: bottom; position:relative; display: inline-block; background:none; font-size:24pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#000000; text-align:left;  }
+#container_3cab291b { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_3cab291b_padding { margin: 10px; display: block;  }
+#text_76cb1e62 { vertical-align: bottom; position:relative; display: inline-block; background:none;  }
+.textstyle7 { font-size:15pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#000000;  }
+#container_261211a2 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_261211a2_padding { margin: 10px; display: block;  }
+#container_1cc482e9 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_1cc482e9_padding { margin: 10px; display: block;  }
+#video_343b5305 { box-sizing: border-box; vertical-align: bottom; position:relative; display: inline-block; width:50%; background-color:#D1D1D1; border: 1px solid #A0A0A0;  }
+#container_70dca2ac { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_70dca2ac_padding { margin: 10px; display: block;  }
+#text_3f3985df { vertical-align: bottom; position:relative; display: inline-block; background:none;  }
+#container_52b91d85 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_52b91d85_padding { margin: 10px; display: block;  }
+#video_190c23ae { box-sizing: border-box; vertical-align: bottom; position:relative; display: inline-block; width:50%; background-color:#D1D1D1; border: 1px solid #A0A0A0;  }
+#container_492a0a13 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_492a0a13_padding { margin: 10px; display: block;  }
+#text_2ea1b31f { vertical-align: bottom; position:relative; display: inline-block; background:none;  }
+#container_464c17e1 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_464c17e1_padding { margin: 10px; display: block;  }
+#video_77988867 { box-sizing: border-box; vertical-align: bottom; position:relative; display: inline-block; width:50%; background-color:#D1D1D1; border: 1px solid #A0A0A0;  }
+#container_22220890 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:75px; background:none;  }
+#container_22220890_padding { margin: 30px 10px 10px 10px; display: block;  }
+#heading_9e2438b { vertical-align: bottom; position:relative; display: inline-block; background:none; font-size:14pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#000000; text-align:center;  }
+#button_60320bed { box-sizing: border-box; vertical-align: bottom; position:relative; display: inline-block; width:129px; height:22px; background-color:#0A2E5D; background: linear-gradient(to bottom, #1355AB, #0A2E5D); border: 2px solid #031020;  }
+.vcenterstyle1 { display: table; width: 100%; height: 100%; }
+.vcenterstyle2 { display: table-cell; vertical-align: middle; }
+.textstyle8 { font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF;  }
+#button_78f5a594 { box-sizing: border-box; vertical-align: bottom; position:relative; display: inline-block; width:129px; height:22px; background-color:#0A2E5D; background: linear-gradient(to bottom, #1355AB, #0A2E5D); border: 2px solid #031020;  }
+#text_3720dca3 { vertical-align: top; position:relative; display: inline-block; background:none;  }
+.textstyle9 { font-size:14pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#000000;  }
+#container_1a386bfe { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:21px; background:none;  }
+#container_1a386bfe_padding { margin: 10px; display: block;  }
+#heading_508d5d2f { vertical-align: bottom; position:relative; display: inline-block; background-color:#808080; font-size:14pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#FFFFFF; text-align:left;  }
